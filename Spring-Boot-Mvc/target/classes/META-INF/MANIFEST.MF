@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: guttu
+Build-Jdk: 15.0.1
+Implementation-Title: Spring-Boot-Mvc
+Implementation-Version: 1.0
+Implementation-Vendor-Id: com
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/Spring-Boot-Mvc
+Created-By: Maven Integration for Eclipse
+
