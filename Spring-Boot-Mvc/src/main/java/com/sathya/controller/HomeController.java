@@ -42,7 +42,7 @@ public class HomeController {
 		//homeBean.name="Abdul";
 		String name=homeBean.getName();
 		modelMap.addAttribute("model",name);
-
+		//hello world ,welcome to java
 		return "home";
 	}
 }
