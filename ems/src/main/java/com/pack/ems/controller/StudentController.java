@@ -14,5 +14,11 @@ public class StudentController {
 		return null;
 
 	}
+	@GetMapping("/indexfgdjdfgd1")
+	public String getIndexPage1()
+	{
+		return null;
+
+	}
 
 }
