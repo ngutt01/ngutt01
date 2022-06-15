@@ -47,4 +47,9 @@ public class EmployeeServiceImpl1 implements IEmployeeService {
 		
 	}
 
+	public void test4(Employee emp)
+	{
+		repository.save(emp);
+		
+	}
 }
