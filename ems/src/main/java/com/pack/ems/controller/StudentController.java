@@ -21,4 +21,10 @@ public class StudentController {
 
 	}
 
+	@GetMapping("/indexfgdjdfgd2")
+	public String getIndexPage2()
+	{
+		return null;
+
+	}
 }
