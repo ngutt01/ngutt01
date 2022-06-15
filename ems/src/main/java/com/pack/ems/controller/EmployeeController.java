@@ -155,4 +155,28 @@ public class EmployeeController {
 
 	}
 
+	
+	@GetMapping("/test")
+	public String test(@RequestParam("deptNo")Integer deptNo,Model model)
+	{
+
+		List<com.pack.ems.entity.Employee> empList=	repository.findByDeptNo(deptNo);
+		for(com.pack.ems.entity.Employee emp:empList)
+		{
+			Integer	dept1=emp.getDeptNo();
+			if(deptNo==dept1)
+			{
+				model.addAttribute("list",empList);
+				model.addAttribute("message", null);
+
+			}
+
+			else {
+				model.addAttribute("message","Invalid Department Number");
+			}
+
+		}
+		return "employeesList";
+
+	}
 }
