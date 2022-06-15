@@ -35,5 +35,10 @@ public class EmployeeServiceImpl1 implements IEmployeeService {
 		repository.save(emp);
 		
 	}
+	public void test1(Employee emp)
+	{
+		repository.save(emp);
+		
+	}
 
 }
