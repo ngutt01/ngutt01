@@ -27,4 +27,11 @@ public class StudentController {
 		return null;
 
 	}
+	
+	@GetMapping("/sathya")
+	public String getSathya()
+	{
+		return "sathya";
+
+	}
 }
